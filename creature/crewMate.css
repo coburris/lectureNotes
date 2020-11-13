@@ -1,0 +1,105 @@
+
+.body{
+    width: 150px;
+    height: 250px;
+    background-color: #44b99e;
+    margin: 150px 250px;
+    border: 10px solid black;
+    border-radius: 50% 70% 70% 40%;
+}
+
+.bodyLight{
+    background-color: #68f9d8;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    border-radius: 50% 70% 70% 50%;
+    transform: rotate(-2deg);
+}
+
+.face{
+    background-color:#63838f;
+    position: relative;
+    width: 95px;
+    height: 65px;
+    border: 10px solid black;
+    border-radius: 50px;
+    left: 25%;
+    top: 10%;
+    z-index: 2;
+}
+
+.faceLight{
+    background-color: #9fd4e9;
+    position: relative;
+    width: 90px;
+    height: 45px;
+    left: 7%;
+    bottom: 1%;
+    border-radius: 30% 40% 40% 50%;
+    transform: rotate(-2deg);
+    z-index: 3;
+}
+
+.glare{
+    background-color: white;
+    width: 45px;
+    height: 20px;
+    position: relative;
+    left: 30%;
+    top: 10%;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.backpack{
+    background-color: #44b99e;
+    width: 50px;
+    height: 125px;
+    border: 10px solid black;
+    position: relative;
+    bottom: 50%;
+    right: 47%;
+    border-radius: 40% 10% 0 50%;
+}
+
+.backpackLight{
+    background-color: #68f9d8;
+    width: 50px;
+    height: 40px;
+    border-radius: 50% 0 0 20%;
+}
+
+.leftLeg{
+    background-color: #44b99e;
+    width: 50px;
+    height: 75px;
+    border: 10px solid black;
+    border-top: none;
+    border-radius: 0 0 30% 30%;
+    position: relative;
+    bottom: 50%;
+    right: 2%;
+}
+
+.rightLeg{
+    background-color: #44b99e;
+    width: 45px;
+    height: 75px;
+    border: 10px solid black;
+    border-top: none;
+    border-radius: 0 0 30% 30%;
+    position: relative;
+    bottom: 87%;
+    left: 49%;
+}
+
+#legCover{
+    background-color: #44b99e;
+    width: 32px;
+    height: 41px;
+    border-radius: 9px;
+    position: relative;
+    bottom: 19em;
+    left: 55px;
+}
